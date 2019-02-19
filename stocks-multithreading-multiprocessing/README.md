@@ -2,7 +2,7 @@
 
 ## Project Description
 
-This module ingests 5.4 million rows of daily historical NASDAQ stock price data, processes the data into summary statistics (e.g. mean, standard deviation, etc.) and outputs the processed data into to a series of CSV files. Multithreading, multiprocessing and queues are utilized to reduce the processing runtime on a single 3.8 GHz Intel Core i5 with 4 cores by 50% when compared to non-concurrent processing methods. 
+This module ingests 5.4 million rows of daily historical NASDAQ stock price data, processes the data into summary statistics (e.g. mean, standard deviation, etc.) and outputs the processed data into a series of CSV files. Multithreading, multiprocessing and queues are utilized to reduce the processing runtime on a single 3.8 GHz Intel Core i5 with 4 cores by 50% when compared to non-concurrent processing methods. 
 
 ### Input
 
